@@ -94,7 +94,7 @@ public class Main {
                 }
             }
 
-            // wall check
+            // Hit the wall (Error Solution)
             if (newRow < 0 || newRow >= rows || newCol < 0 || newCol >= cols) {
                 System.out.println("Hit the wall!");
                 break;
