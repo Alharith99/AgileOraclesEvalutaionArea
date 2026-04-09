@@ -89,7 +89,7 @@ public class Main {
             if (snakeList.size() > 1) {
                 int[] neck = snakeList.get(snakeList.size() - 2);
                 if (newRow == neck[0] && newCol == neck[1]) {
-                    System.out.println("Reverse movement is Invalid.");
+                    System.out.println("Reverse movement is Invalid!.");
                     break;
                 }
             }
